@@ -8,7 +8,11 @@
  * This code is licensed under a MIT-style license.
  */
 
+<<<<<<< HEAD
 #ifndef _TEXT_H
+=======
+#ifndef _TEXT_H   
+>>>>>>> 3b3581202aa9ca36442a5f43c8df89249c442918
 #define _TEXT_H
 
 #include <stddef.h>
