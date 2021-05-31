@@ -8,7 +8,7 @@
  * This code is licensed under a MIT-style license.
  */
 
-#ifndef _TEXT_H
+#ifndef _TEXT_H   
 #define _TEXT_H
 
 #include <stddef.h>
