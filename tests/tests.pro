@@ -15,7 +15,7 @@ QMAKE_CFLAGS += -fprofile-arcs -ftest-coverage
 LIBS += -lgcov
 
 HEADERS +=     \
-    test_m.h \
+    test_m.h
 
 SOURCES +=     main.cpp  \
     ../app/m.c \

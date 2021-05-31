@@ -1,5 +1,6 @@
-#include "test_m.h"
 #include <gtest/gtest.h>
+
+#include "test_m.h"
 
 int main(int argc, char *argv[])
 {

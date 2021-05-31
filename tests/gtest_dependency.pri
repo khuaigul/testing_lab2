@@ -5,11 +5,7 @@ isEmpty(GOOGLETEST_DIR) {
     message("set GOOGLETEST_DIR as environment variable or qmake variable to get rid of this message")
     GOOGLETEST_DIR = $$PWD/../external/googletest
 }
-<<<<<<< HEAD
 
-=======
-   
->>>>>>> 3b3581202aa9ca36442a5f43c8df89249c442918
 !isEmpty(GOOGLETEST_DIR): {
     GTEST_SRCDIR = $$GOOGLETEST_DIR/googletest
     GMOCK_SRCDIR = $$GOOGLETEST_DIR/googlemock
@@ -29,5 +25,3 @@ INCLUDEPATH *= \
 SOURCES += \
     $$GTEST_SRCDIR/src/gtest-all.cc \
     $$GMOCK_SRCDIR/src/gmock-all.cc
-
-DISTFILES +=
