@@ -19,7 +19,7 @@ script:
 #    - sonar-scanner
 
 #cache:
-#    directories:
+#    directories: 
 #    - '$HOME/.m2/repository'
 #    - '$HOME/.sonar/cache'#
 
